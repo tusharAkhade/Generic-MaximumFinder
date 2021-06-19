@@ -1,15 +1,15 @@
 package com.tushar.max;
 
 public class MaxFinder {
-    public static Float findMax(Float num1, Float num2, Float num3) {
-        Float max = num1;
-        if (num2.compareTo(max) > 0) {
-            max = num2;
+    public static String findMax(String str1, String str2, String str3) {
+        String maxString = str1;
+        if (str2.compareTo(maxString) > 0) {
+            maxString = str2;
         }
-        if (num3.compareTo(max) > 0) {
-            max = num3;
+        if (str3.compareTo(maxString) > 0) {
+            maxString = str3;
         }
-        System.out.printf("Max values of %s %s %s is %s \n", num1, num2, num3, max);
-        return max;
+        System.out.printf("Maximum of %s %s %s is %s \n", str1, str2, str3, maxString);
+        return maxString;
     }
 }
