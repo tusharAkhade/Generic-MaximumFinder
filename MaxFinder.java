@@ -1,5 +1,9 @@
 package com.tushar.max;
-
+/**
+* MaxFinder will find the maximum of three float numbers
+* @author Tushar Akhade
+* @since 20 Jun 2021
+*/
 public class MaxFinder {
     public static Float findMax(Float num1, Float num2, Float num3) {
         Float max = num1;
