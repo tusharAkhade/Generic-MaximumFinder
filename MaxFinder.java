@@ -1,5 +1,9 @@
 package com.tushar.max;
-
+/**
+* MaxFinder will find the maximum of three integers
+* @author Tushar Akhade
+* @since 20 Jun 2021
+*/
 public class MaxFinder {
     public static Integer findMax(Integer int1, Integer int2, Integer int3) {
         Integer max = int1;
