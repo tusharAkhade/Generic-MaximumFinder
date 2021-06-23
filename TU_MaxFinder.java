@@ -23,6 +23,7 @@ public class TU_MaxFinder {
     }
 
     @Test
+
     void whenFloatShouldReturnMax3() {
         Float num1 = 1.2f, num2 = 6.2f, num3 = 24.3f;
         Float max = MaxFinder.findMax(num1, num2, num3);
