@@ -2,6 +2,12 @@ import com.tushar.max.MaxFinder;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+* It is Test Cases for MaxFinder
+* In Test 1, maximum number is at first position
+* In Test 2, maximum number is at second position
+* In Test 3, maximum number is at third position
+*/
 public class TU_MaxFinder {
     @Test
     void whenIntegerShouldReturnMax1() {
